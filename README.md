@@ -1,72 +1,87 @@
 # employee-spotlight-list
-A full CRUD list app made with React and Redux in a Dockerfile
-# Getting Started with Create React App
+#### A full CRUD list app made with React and Redux in a Dockerfile
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+**[Quick Links](#Quick-Links)**<br>
+**[First Looks](#First-Looks)**<br>
+**[Next Steps to Continue](#Next-Steps-to-Continue)**<br>
+**[Acceptance Criteria](#Acceptance-Criteria)**<br>
+**[Deliverables](#Deliverables)**<br>
+**[License](#License)**<br>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Quick Links
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### click here to view --> [Employee Spotlight Live Website](https://jessamyn27.github.io/Modernize-Enter-To-Win-Challenge/)
 
-### `npm test`
+### click here to view --> [Demo Walkthru Video](https://drive.google.com/file/d/1-RfFzPpIHkNmVnkdTuEEu12hDgwqQs4K/view?usp=sharing)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## First Looks
 
-### `npm run build`
+# ![](images/screenshots/screenshot-home.png)
+# ![](images/screenshots/screenshot-add-user-valid-success.png)
+# ![](images/screenshots/screenshot-edit-user-valid-error.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Set Up and Run Locally
+- 1. clone project on your local machine [cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+- 2. open project in your IDE (ie: visual studio)
+- 3. open the terminal at project root and npm install to load all dependencies and configurations
+- 4. npm start will start and run the app in your browser [http://localhost:3000](http://localhost:3000)
+- 5. The page will automatically reload when you save any changes and show lint warnings and errors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Next Steps to Continue
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- more validation UI clean up and functionality such as error pop outs below invalid inputs on click and hover-over info tags
+- accessibilty compliant tabbing functionality, UI and validation expanded
+- test and clean up run time efficiency based on Google Analytics (image optimization, lazy-loading)
+- create more reusable, flexible components for scalability, readability, and efficiency like form, inputs, error validation ect...
+- scale out form template functionality so admin user can CRUD the form template for example, ability to change questions asked and adding more types of inputs like a photo or video
+- scale out employee engagement functionality and UI with likes, comments, ranking and sorting card list
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acceptance Criteria
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Objective:
+- The goal of this assessment is to evaluate your skills and understanding of front end development using ReactJS. Your task is to create a simple application that allows users to manage a list of items. The application should have basic CRUD (Create, Read, Update, and Delete) functionality.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Requirements:
 
-## Learn More
+- Front End (ReactJS):
+- 1. Create a responsive user interface using ReactJS.
+- 2. Users should be able to add, view, edit, and delete items from the list.
+- 3. Validate user inputs (e.g. empty fields, invalid characters).
+- 4. Implement error handling and display appropriate messages to the user.
+- 5. Use state management libraries such as Redux or MobX to manage application state.
+- 6. Use CSS or CSS-in-JS solutions (e.g. styled-components) for styling.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Docker:
+- 1. Create a Dockerfile for the front end application.
+- 2. Ensure that the application runs smoothly using Docker.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Deliverables:
+- 1. A fully functional front end application meeting all the requirements outlined above.
+- 2. Source code for the front end application.
+- 3. Dockerfile and any necessary configuration files.
+- 4. A README file with instructions on how to set up, run, and use the application.
 
-### Code Splitting
+#### Submission:
+- Please submit your completed assessment as a zip file or a link to a GitHub repository. 
+- Ensure that your submission includes all the necessary files and instructions for us to run your application using Docker.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Evaluation Criteria:
+- Your submission will be evaluated based on the following criteria:
 
-### Analyzing the Bundle Size
+- 1. Functionality: Does the application meet the requirements outlined above?
+- 2. Code Quality: Is the code well-organized, readable, and maintainable?
+- 3. User Experience: Is the application user-friendly and visually appealing?
+- 4. Error Handling: Does the application handle errors and edge cases effectively?
+- 5. Scalability: Is the application designed in a way that would allow it to scale easily?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+[MIT License](https://opensource.org/licenses/MIT)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**[Back Up To Top](#employee-spotlight-list)**
