@@ -9,7 +9,7 @@ import { Provider } from 'react-redux';
 import './index.css';
 import App from './App';
 import AddEmployee from './features/employees/AddEmployee';
-import UserList from './features/employees/UserList';
+import EmployeeList from './features/employees/EmployeeList';
 import EditEmployee from './features/employees/EditEmployee';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,14 +21,14 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <UserList />,
+        element: <EmployeeList />,
       },
       {
-        path: "/add-user",
+        path: "/add-employee",
         element: <AddEmployee />,
       },
       {
-        path: "/edit-user/:id",
+        path: "/edit-employee/:id",
         element: <EditEmployee />,
       },
     ],
