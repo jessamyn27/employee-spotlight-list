@@ -40,7 +40,7 @@ const EmployeeList = () => {
     return (
         <div className='homepage container p-10'>
             <h1 className='text-center font-bold text-3xl text-white'>Ragant</h1>
-            <h2 className='text-center font-bold text-2xl text-white'>Employee Spotlights</h2>
+            <h2 className='text-center font-bold text-2xl text-white'>Employee Spotlight</h2>
             <Link to='/add-employee'><Button>Add Employee</Button></Link>
             <div className = 'grid gap-5 md:grid-cols-2'>
                 {employees.length ? renderCard() : <p className = 'text-center col-span-2 text-red-700 font-semibold'> No Employee Found </p>}

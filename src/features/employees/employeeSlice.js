@@ -1,9 +1,23 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit';
 import { v4 as uuidv4 } from 'uuid';
 
 const initialState = [
-    { id: uuidv4(), name: 'Emma Murray', email: 'emurray@ragant.com', title: 'VP of Operations', food: 'Pesto penne pasta with peppered pinenuts and parmesean with pan chocolate for dessert', vacation: 'Hiking in the Alps'},
-    { id: uuidv4(), name: 'Jessamyn McTwigan', email: 'jmctwigan@ragant.com', title: 'Frontend Software Engineer', food: 'Loaded baked potato with cheddar, cholula and chives', vacation: 'Surfing in Portugal' },
+    {
+        id: uuidv4(), 
+        name: 'Emma Murray', 
+        email: 'emurray@ragant.com', 
+        title: 'VP of Operations', 
+        food: 'Pesto penne pasta with peppered pinenuts and parmesean with pan chocolate for dessert', 
+        vacation: 'Hiking in the Alps'
+    },
+    {
+        id: uuidv4(), 
+        name: 'Jessamyn McTwigan', 
+        email: 'jmctwigan@ragant.com', 
+        title: 'Frontend Software Engineer', 
+        food: 'Loaded baked potato with cheddar, cholula and chives', 
+        vacation: 'Surfing in Portugal' 
+    },
 ];
 
 export const employeeSlice = createSlice({
@@ -32,7 +46,7 @@ export const employeeSlice = createSlice({
             }
         }
     },
-})
+});
 
 export const { addEmployee, editEmployee, deleteEmployee } = employeeSlice.actions;
 export default employeeSlice.reducer;
