@@ -6,10 +6,10 @@
 
 **[Quick Links](#Quick-Links)**<br>
 **[First Looks](#First-Looks)**<br>
+**[Set Up and Run Locally](#Set-Up-and-Run-Locally)**<br>
+**[Set Up and Run in Docker](#Set-Up-and-Run-in-Docker)**<br>
 **[Next Steps to Continue](#Next-Steps-to-Continue)**<br>
 **[Acceptance Criteria](#Acceptance-Criteria)**<br>
-**[Deliverables](#Deliverables)**<br>
-**[License](#License)**<br>
 
 
 ## Quick Links
@@ -32,6 +32,8 @@
 - 4. npm start will start and run the app in your browser [http://localhost:3000](http://localhost:3000)
 - 5. The page will automatically reload when you save any changes and show lint warnings and errors
 
+## Set Up and Run in Docker
+- 1.
 
 ## Next Steps to Continue
 
