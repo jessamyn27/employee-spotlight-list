@@ -2,51 +2,83 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --white: #ffffff;
+    --beige: #e4e4e4;
+    --beige-dark: #d7d5d565;
+    --beige-light: #f8f6f6f0;
+    --orange: #E59000;
+    --orange-light: #F0DCB6;
+    --orange-lighter: #e5910034;
+    --orange-lightest: #f3eee6;
+    --orange-dark: #c88003;
+    --green: #1D3E3E;
+    --green-light: #006064;
+    --green-lighter: #bcdddb26;
+    --green-dark: #015558;
+    --gray: #504f4f;
+}
+
 .homepage {
-    background-color: #1D3E3E;
+    background-color: var(--green);
     min-height: 100vh;
     padding-bottom: 100px;
-    /* color: #FFF; */
 }
 
 .card {
-    background-color: #F0DCB6;
+    background-color: var(--orange-light);
     border-radius: 5px;
-}
-
-.form {
-    /* background-color: rgb(243, 238, 230); */
 }
 
 .input {
-    background-color: rgba(248, 246, 246, .5);
-    border: 2px solid #e4e4e4;
+    background-color: var(--beige-light);
+    border: 2px solid var(--beige);
     border-radius: 5px;
-    color: #252525;
+    color: var(--gray);
 }
 
-input:hover {
-    background-color: rgba(248, 246, 246, 1);
+.input:hover {
+    background-color: var(--beige-dark);
+    border: 2px solid var(--beige-dark);
 }
 
 .button {
-    background-color: rgb(243, 238, 230);
-    border: 2px solid #e4e4e4;
+    background-color: var(--orange-lightest);
+    border: 2px solid var(--beige);
     border-radius: 5px;
-    color: #252525;
+    color: var(--gray);
+    display: flex;
+    justify-content: center;
+    width: 100px;
 }
 
-.valid-green {
-    background-color: #bcdddb26;
-    border: 2px solid #006064;
-    border-radius: 5px;
-    color: #252525;
+.button-cancel {
+    background-color: var(--orange);
+    border: 2px solid var(--orange-dark);
+    color: var(--white);
 }
 
-.button.valid-green {
-    background-color: #E59000;
-    border: 2px solid #c88003;
+.button.main {
+    background-color: var(--orange);
+    border: 2px solid var(--orange-dark);
+    width: 200px;
+}
+
+.button.valid-success {
+    background-color: var(--green-light);
+    border: 2px solid var(--green-dark);
     border-radius: 5px;
-    color: #FFF;
-    justify-content: flex-end;
+    color: var(--white);
+}
+
+.valid-success {
+    background-color: var(--green-lighter);
+    border: 2px solid var(--green-light);
+    color: var(--gray);
+}
+
+.valid-error {
+    background-color: var(--orange-lighter);
+    border: 2px solid var(--orange);
+    color: var(--gray);
 }
