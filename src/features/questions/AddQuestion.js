@@ -37,7 +37,7 @@ const AskQuestion = () => {
                     className='input questions-input py-2 px-3 border-2 outline-none'
                     onChange={(e) => setValues({ ...values, question: e.target.value})}
                     type='text'
-                    placeholder='what is your question?'
+                    placeholder='What is your question?'
                     ref={questionRef}
                     value={values.question}
                     tabIndex="0"
