@@ -14,9 +14,7 @@
 
 ## Quick Links
 
-### click here to view --> [Employee Spotlight Live Website](https://jessamyn27.github.io/)
-
-### click here to view --> [Demo Walkthru Video](https://)
+### click here to view live site --> [Rajant Employee Spotlight](https://rajant-employee-spotlight.com/)
 
 ## First Looks
 
