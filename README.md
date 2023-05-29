@@ -14,15 +14,27 @@
 
 ## Quick Links
 
-### click here to view --> [Employee Spotlight Live Website](https://jessamyn27.github.io/Modernize-Enter-To-Win-Challenge/)
+### click here to view --> [Employee Spotlight Live Website](https://jessamyn27.github.io/)
 
-### click here to view --> [Demo Walkthru Video](https://drive.google.com/file/d/1-RfFzPpIHkNmVnkdTuEEu12hDgwqQs4K/view?usp=sharing)
+### click here to view --> [Demo Walkthru Video](https://)
 
 ## First Looks
 
-# ![](images/screenshots/screenshot-home.png)
-# ![](images/screenshots/screenshot-add-user-valid-success.png)
-# ![](images/screenshots/screenshot-edit-user-valid-error.png)
+## ![](images/screenshots/rajant-homepage.png)
+### ![](images/screenshots/rajant-homepage-add.png)
+### ![](images/screenshots/rajant-homepage-edit.png)
+### ![](images/screenshots/rajant-homepage-delete.png)
+### ![](images/screenshots/rajant-add-not-filled.png)
+### ![](images/screenshots/rajant-add-validation.png)
+### ![](images/screenshots/rajant-add-success.png)
+### ![](images/screenshots/rajant-edit-validation.png)
+### ![](images/screenshots/rajant-edit-success.png)
+### ![](images/screenshots/rajant-homepage-questions-validation.png)
+### ![](images/screenshots/rajant-homepage-questions-success.png)
+### ![](images/screenshots/rajant-homepage-questions-add.png)
+### ![](images/screenshots/rajant-homepage-mobile.png)
+### ![](images/screenshots/rajant-edit-mobile.png)
+
 
 
 ## Set Up and Run Locally

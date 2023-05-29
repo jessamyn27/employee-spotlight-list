@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import Button from '../../components/Button';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteEmployee } from './employeeSlice';
-import QuestionList from "./QuestionList";
-import AddQuestion from "./AddQuestion";
+import QuestionList from "../questions/QuestionList";
+import AddQuestion from "../questions/AddQuestion";
 
 const EmployeeList = () => {
     const employees = useSelector(store => store.employees);

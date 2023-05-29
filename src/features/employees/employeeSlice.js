@@ -7,7 +7,7 @@ const initialState = [
         name: 'Emma Murray', 
         email: 'emurray@rajant.com', 
         title: 'VP of Operations', 
-        food: 'Pesto penne pasta with peppered pinenuts and parmesean with pan chocolate for dessert', 
+        food: 'Pesto penne pasta with peppered pinenuts and parmesan with pan chocolate for dessert', 
         vacation: 'Hiking in the Alps'
     },
     {

@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 const initialState = [
     {
         id: uuidv4(), 
-        question: 'If you could have a superpower, what would would it be and why?'
+        question: 'If you could have a superpower, what would it be and why?'
     },
     {
         id: uuidv4(), 
@@ -12,7 +12,7 @@ const initialState = [
     },
     {
         id: uuidv4(), 
-        question: 'What you do with a million dollars?'
+        question: 'What would you do with a million dollars?'
     },
 ];
 

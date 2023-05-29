@@ -40,6 +40,7 @@ const EditEmployee = () => {
     }
 
     const handleEditEmployee = () => {
+        window.scrollTo(0,0);
         setValues({ 
             name: values.name, 
             email: values.email, 
@@ -58,7 +59,7 @@ const EditEmployee = () => {
     };
 
     return (
-        <div className='form mt-2 mb-20 max-w-xl mx-auto px-10 flex gap-4 flex-col'>
+        <div className='form mt-5 mb-20 max-w-xl mx-auto px-10 flex gap-4 flex-col'>
             <div className='flex flex-col'>
                 <label className='mb-1  text-gray-600 text-xs'>Name</label>
                 <input

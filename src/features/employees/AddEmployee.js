@@ -52,25 +52,26 @@ const AddEmployee = () => {
     }
 
     const handleAddEmployee = () => {
-            dispatch(addEmployee({
-                id: uuidv4(),
-                name: values.name,
-                email: values.email,
-                title: values.title,
-                food: values.food,
-                vacation: values.vacation
-            }));
-            setValues({ 
-                name: '', 
-                email: '' , 
-                title: '', 
-                food: '', 
-                vacation: ''
-            });
-        };
+        window.scrollTo(0,0);
+        dispatch(addEmployee({
+            id: uuidv4(),
+            name: values.name,
+            email: values.email,
+            title: values.title,
+            food: values.food,
+            vacation: values.vacation
+        }));
+        setValues({ 
+            name: '', 
+            email: '' , 
+            title: '', 
+            food: '', 
+            vacation: ''
+        });
+    };
 
     return (
-        <div className='form mt-2 mb-20 max-w-xl mx-auto px-10 flex gap-4 flex-col'>
+        <div className='form mt-5 mb-20 max-w-xl mx-auto px-10 flex gap-4 flex-col'>
             <div className='flex flex-col'>
                 <label className='mb-2  text-gray-600 text-xs'>Name</label>
                 <input
