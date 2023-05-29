@@ -55,24 +55,29 @@ input:focus {
 
 .questions {
     background-color: var(--green);
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .questions-container {
-    margin: 100px 0 0;
+    margin: 100px auto 0;
 }
 
 .questions-container.card {
     background-color: var(--green-lighter);
+
+    max-width: 1000px;
+
 }
 
 .button.questions-button {
     background-color: var(--green);
-    border-color: var(--green-light);
+    border-color: var(--orange);
     color: var(--green-light);
 }
 
 .input.questions-input {
-    border-color: var(--green);
+    border-color: var(--white);
     background-color: var(--green);
     color: var(--beige);
     margin-bottom: 15px;
