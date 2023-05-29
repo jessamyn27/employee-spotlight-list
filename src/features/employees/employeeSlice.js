@@ -5,19 +5,43 @@ const initialState = [
     {
         id: uuidv4(), 
         name: 'Emma Murray', 
-        email: 'emurray@ragant.com', 
+        email: 'emurray@rajant.com', 
         title: 'VP of Operations', 
         food: 'Pesto penne pasta with peppered pinenuts and parmesean with pan chocolate for dessert', 
         vacation: 'Hiking in the Alps'
     },
     {
         id: uuidv4(), 
+        name: 'Nathan Budziszewski', 
+        email: 'nbudziszewski@rajant.com', 
+        title: 'VP of Engineering', 
+        food: 'Baja fish tacos with spicy slaw and applesauce', 
+        vacation: 'Camping at Big Bend with the family' 
+    },
+    {
+        id: uuidv4(), 
+        name: 'Foad Nazari', 
+        email: 'fnazari@rajant.com', 
+        title: 'Principle Genomic Scientist', 
+        food: 'Spicy Mac and Cheese with bbq sauce and vanilla pudding', 
+        vacation: 'Cruise in the Mediterranean Sea' 
+    },
+    {
+        id: uuidv4(), 
         name: 'Jessamyn McTwigan', 
-        email: 'jmctwigan@ragant.com', 
+        email: 'jmctwigan@rajant.com', 
         title: 'Frontend Software Engineer', 
         food: 'Loaded baked potato with cheddar, cholula and chives', 
         vacation: 'Surfing in Portugal' 
     },
+    {
+        id: uuidv4(), 
+        name: 'Tim Chin', 
+        email: 'tchin@rajant.com', 
+        title: 'Cybersecurity Professional', 
+        food: 'Fried onion rings with roasted brussel sprouts', 
+        vacation: 'Skiing in Lake Tahoe' 
+    }
 ];
 
 export const employeeSlice = createSlice({

@@ -13,7 +13,6 @@ import EmployeeList from './features/employees/EmployeeList';
 import EditEmployee from './features/employees/EditEmployee';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,6 +30,10 @@ const router = createBrowserRouter([
         path: "/edit-employee/:id",
         element: <EditEmployee />,
       },
+      // {
+      //   path: "/",
+      //   element: <AddQuestion />,
+      // }
     ],
   },
 ]);

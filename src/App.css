@@ -22,7 +22,13 @@
 .homepage {
     background-color: var(--green);
     min-height: 100vh;
+    min-width: 100vw;
     padding-bottom: 100px;
+}
+
+.homepage-subtitle {
+    color: var(--orange-light);
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .card {
@@ -37,9 +43,43 @@
     color: var(--gray);
 }
 
-.input:hover {
+.input:hover,
+input:focus {
     background-color: var(--beige-dark);
     border: 2px solid var(--beige-dark);
+}
+
+.question {
+    color: var(--orange-light);
+}
+
+.questions {
+    background-color: var(--green);
+}
+
+.questions-container {
+    margin: 100px 0 0;
+}
+
+.questions-container.card {
+    background-color: var(--green-lighter);
+}
+
+.button.questions-button {
+    background-color: var(--green);
+    border-color: var(--green-light);
+    color: var(--green-light);
+}
+
+.input.questions-input {
+    border-color: var(--green);
+    background-color: var(--green);
+    color: var(--beige);
+    margin-bottom: 15px;
+}
+
+.questions-input:hover {
+    background-color: var(--green-lighter);
 }
 
 .button {
@@ -52,23 +92,36 @@
     width: 100px;
 }
 
+.button.main:hover {
+    background-color: var(--orange-dark);
+}
+
 .button-cancel {
     background-color: var(--orange);
     border: 2px solid var(--orange-dark);
     color: var(--white);
 }
 
+.button-cancel:hover {
+    background-color: var(--orange-dark);
+}
+
 .button.main {
     background-color: var(--orange);
     border: 2px solid var(--orange-dark);
+    color: var(--gray);
     width: 200px;
 }
 
 .button.valid-success {
-    background-color: var(--green-light);
+    background-color: var(--green-dark);
     border: 2px solid var(--green-dark);
     border-radius: 5px;
     color: var(--white);
+}
+
+.button.valid-success:hover {
+    background-color: var(--green);
 }
 
 .valid-success {
@@ -81,4 +134,20 @@
     background-color: var(--orange-lighter);
     border: 2px solid var(--orange);
     color: var(--gray);
+}
+
+.error-message {
+    color: var(--orange-dark);
+    font-size: 16px;
+    opacity: 0;
+    padding: 0 0 0 15px;
+}
+
+.has-error {
+    background-color: var(--orange-lightest);
+    border: 2px solid var(--orange);
+}
+
+.show-error {
+    opacity: 1;
 }
