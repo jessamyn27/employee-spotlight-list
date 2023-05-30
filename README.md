@@ -43,7 +43,15 @@
 - 5. The page will automatically reload when you save any changes and show lint warnings and errors
 
 ## Set Up and Run in Docker
-- 1.
+- 1. I went ahead and published this dockerfile on docker hub to make it super easy to plug and play here [jessamyn/employee-spotlight-list](https://hub.docker.com/r/jessamyn/employee-spotlight-list/tags)
+- 2. copy the tag and in the terminal run the the tag: docker pull jessamyn/employee-spotlight-list:latest
+- 3. on mac open "docker desktop" and navigate to the tab "images"
+- 4. you should see "jessamyn/employee-spotlight-list"  and click the play symbol
+- 5. in the "optional settings" popup click the drop down button and under Host port add 4 digits like "8080" and click Run
+- 6. naviate to [http://localhost:8080](http://localhost:8080)
+- 6. on windows or linux you can do all this from the CLI here are a couple helpful links to get it up and running:
+- [Pull Docker Image from Docker Hub and Run it](https://www.stacksimplify.com/aws-eks/docker-basics/get-docker-image-from-docker-hub-and-run-/)
+- [docker pull in docs.docker.com](https://docs.docker.com/engine/reference/commandline/pull/)
 
 ## Next Steps to Continue
 
