@@ -9,7 +9,6 @@
 **[Set Up and Run Locally](#Set-Up-and-Run-Locally)**<br>
 **[Set Up and Run in Docker](#Set-Up-and-Run-in-Docker)**<br>
 **[Next Steps to Continue](#Next-Steps-to-Continue)**<br>
-**[Acceptance Criteria](#Acceptance-Criteria)**<br>
 
 
 ## Quick Links
@@ -61,8 +60,6 @@
 - create more reusable, flexible components for scalability, readability, and efficiency like form, inputs, error validation ect...
 - scale out form template functionality so admin user can CRUD the form template for example, ability to change questions asked and adding more types of inputs like a photo or video
 - scale out employee engagement functionality and UI with likes, comments, ranking and sorting card list
-
-## Acceptance Criteria
 
 #### Objective:
 - The goal of this assessment is to evaluate your skills and understanding of front end development using ReactJS. Your task is to create a simple application that allows users to manage a list of items. The application should have basic CRUD (Create, Read, Update, and Delete) functionality.
