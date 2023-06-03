@@ -12,7 +12,7 @@ const QuestionList = () => {
     return (
         <div className='questions p-1'>
             <div className = 'grid sm:grid-cols-1'>
-                {questions.length ? renderCard() : <p className = 'text-center col-span-2 text-orange-700 font-semibold'> No Questions Yet! </p>}
+                {questions.length ? renderCard() : <p className = 'text-center col-span-2 font-semibold'> No Questions Yet! </p>}
             </div>            
         </div>
     );

@@ -14,24 +14,24 @@
 
 ## Quick Links
 
-### click here to view live site --> [Rajant Employee Spotlight](https://rajant-employee-spotlight.com/)
+### click here to view live site --> [ Employee Spotlight](https://-employee-spotlight.com/)
 
 ## First Looks
 
-### ![](src/images/screenshots/rajant-homepage.png)
-### ![](src/images/screenshots/rajant-homepage-add.png)
-### ![](src/images/screenshots/rajant-homepage-edit.png)
-### ![](src/images/screenshots/rajant-homepage-delete.png)
-### ![](src/images/screenshots/rajant-add-not-filled.png)
-### ![](src/images/screenshots/rajant-add-validation.png)
-### ![](src/images/screenshots/rajant-add-success.png)
-### ![](src/images/screenshots/rajant-edit-validation.png)
-### ![](src/images/screenshots/rajant-edit-success.png)
-### ![](src/images/screenshots/rajant-homepage-questions-validation.png)
-### ![](src/images/screenshots/rajant-homepage-questions-success.png)
-### ![](src/images/screenshots/rajant-homepage-questions-add.png)
-### ![](src/images/screenshots/rajant-homepage-mobile.png)
-### ![](src/images/screenshots/rajant-edit-mobile.png)
+### ![](src/images/screenshots/-homepage.png)
+### ![](src/images/screenshots/-homepage-add.png)
+### ![](src/images/screenshots/-homepage-edit.png)
+### ![](src/images/screenshots/-homepage-delete.png)
+### ![](src/images/screenshots/-add-not-filled.png)
+### ![](src/images/screenshots/-add-validation.png)
+### ![](src/images/screenshots/-add-success.png)
+### ![](src/images/screenshots/-edit-validation.png)
+### ![](src/images/screenshots/-edit-success.png)
+### ![](src/images/screenshots/-homepage-questions-validation.png)
+### ![](src/images/screenshots/-homepage-questions-success.png)
+### ![](src/images/screenshots/-homepage-questions-add.png)
+### ![](src/images/screenshots/-homepage-mobile.png)
+### ![](src/images/screenshots/-edit-mobile.png)
 
 
 

@@ -4,57 +4,101 @@
 
 :root {
     --white: #ffffff;
-    --beige: #e4e4e4;
-    --beige-dark: #d7d5d565;
-    --beige-light: #f8f6f6f0;
-    --orange: #E59000;
-    --orange-light: #F0DCB6;
-    --orange-lighter: #e5910034;
-    --orange-lightest: #f3eee6;
-    --orange-dark: #c88003;
-    --green: #1D3E3E;
-    --green-light: #006064;
-    --green-lighter: #bcdddb26;
-    --green-dark: #015558;
-    --gray: #504f4f;
+    --beige: #f2f1edf2;
+    --beige-dark: #f4f3ed65;
+    --beige-light: #f8f6f1b8;
+    --lilac: #3A11E6;
+    --lilac-light: #9787e7df;
+    --lilac-lighter: #2e00e534;
+    --lilac-lightest: #f1f0f49b;
+    --lilac-dark: #2f2075;
+    --slate: #16252f;
+    --slate-light: #375569;
+    --slate-lighter: #3e6179a1;
+    --slate-dark: #0f151a;
+    --lilac-darker: #3510c7;
+    --background-beige: #FFF1E4;
 }
 
 .homepage {
-    background-color: var(--green);
+    background-color: var(--background-beige);
     min-height: 100vh;
     min-width: 100vw;
     padding-bottom: 100px;
 }
 
+.homepage-title {
+    color: var(--white);
+    -webkit-text-fill-color: #FED302;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--slate-dark);
+}
+
 .homepage-subtitle {
-    color: var(--orange-light);
+    color: var(--slate);
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .card {
-    background-color: var(--orange-light);
+    background-color: var(--white);
+    border: 1px solid var(--slate-lighter);
     border-radius: 5px;
+    color: var(--slate);
 }
 
+/* .card:hover {
+    border: 1px solid var(--slate);
+} */
+
+/* .card-name {
+    color: var(--lilac);
+} */
+
+/* 
+.card-title {
+    color: var(--beige-dark);
+
+}
+
+.card-email {
+    color: var(--beige-dark);
+
+}
+
+.card-questions {
+    color: var(--beige);
+
+}
+
+.card-question {
+    color: var(--beige-dark);
+
+}
+
+.card-answer {
+    color: var(--beige);
+
+} */
+
 .input {
-    background-color: var(--beige-light);
-    border: 2px solid var(--beige);
+    background-color: var(--white);
+    border: 1px solid var(--slate-light);
     border-radius: 5px;
-    color: var(--gray);
+    color: var(--slate-light);
 }
 
 .input:hover,
 input:focus {
-    background-color: var(--beige-dark);
-    border: 2px solid var(--beige-dark);
+    background-color: var(--beige-light);
+    border: 1px solid var(--slate);
 }
 
 .question {
-    color: var(--orange-light);
+    color: var(--beige);
 }
 
 .questions {
-    background-color: var(--green);
+    /* background-color: var(--slate); */
     margin: 0 auto;
     max-width: 1000px;
 }
@@ -64,93 +108,111 @@ input:focus {
 }
 
 .questions-container.card {
-    background-color: var(--green-lighter);
-
+    /* background-color: var(--slate-lighter); */
     max-width: 1000px;
+}
 
+.questions-title {
+    color: var(--lilac);
 }
 
 .button.questions-button {
-    background-color: var(--green);
-    border-color: var(--orange);
-    color: var(--green-light);
+    background-color: var(--white);
+    border: 1px solid var(--lilac);
+    color: var(--lilac);
 }
 
 .input.questions-input {
-    border-color: var(--white);
-    background-color: var(--green);
-    color: var(--beige);
+    /* border-color: var(--slate-lighter); */
+    border: 1px solid var(--slate-lighter);
+    background-color: var(--white);
+    color: var(--slate);
     margin-bottom: 15px;
 }
 
 .questions-input:hover {
-    background-color: var(--green-lighter);
+    background-color: var(--beige-dark);
 }
 
 .button {
-    background-color: var(--orange-lightest);
-    border: 2px solid var(--beige);
-    border-radius: 5px;
-    color: var(--gray);
+    background-color: var(--white);
+    /* border: 2px solid var(--beige); */
+    /* border-radius: 5px; */
+    color: var(--lilac);
     display: flex;
     justify-content: center;
     width: 100px;
 }
 
 .button.main:hover {
-    background-color: var(--orange-dark);
+    color: var(--lilac-dark);
+}
+
+.button-edit,
+.button-delete {
+    color: var(--lilac);
 }
 
 .button-cancel {
-    background-color: var(--orange);
-    border: 2px solid var(--orange-dark);
-    color: var(--white);
+    background-color: var(--white);
+    border: 2px solid var(--lilac);
+    color: var(--lilac);
 }
 
 .button-cancel:hover {
-    background-color: var(--orange-dark);
+    background-color: var(--lilac-lighter);
 }
 
 .button.main {
-    background-color: var(--orange);
-    border: 2px solid var(--orange-dark);
-    color: var(--gray);
-    width: 200px;
+    background-color: var(--lilac);
+    border: 2px solid var(--lilac);
+    color: var(--white);
+    font-weight: 700;
+    width: 230px;
+}
+
+.button.main:hover {
+    background-color: transparent;
+    color: var(--lilac);
+
 }
 
 .button.valid-success {
-    background-color: var(--green-dark);
-    border: 2px solid var(--green-dark);
+    background-color: var(--lilac);
+    border: 2px solid var(--lilac-darker);
     border-radius: 5px;
     color: var(--white);
 }
 
 .button.valid-success:hover {
-    background-color: var(--green);
+    background-color: var(--lilac-darker);
+    border: 2px solid var(--lilac-darker);
+
+    color: var(--white);
 }
 
 .valid-success {
-    background-color: var(--green-lighter);
-    border: 2px solid var(--green-light);
-    color: var(--gray);
+    background-color: var(--lilac);
+    border: 2px solid var(--lilac);
+    color: var(--white);
 }
 
 .valid-error {
-    background-color: var(--orange-lighter);
-    border: 2px solid var(--orange);
-    color: var(--gray);
+    background-color: var(--white);
+    border: 2px solid var(--lilac);
+    color: var(--lilac);
 }
 
 .error-message {
-    color: var(--orange-dark);
+    color: var(--lilac-dark);
     font-size: 16px;
     opacity: 0;
     padding: 0 0 0 15px;
 }
 
 .has-error {
-    background-color: var(--orange-lightest);
-    border: 2px solid var(--orange);
+    background-color: var(--lilac-lightest);
+    border: 2px solid var(--lilac);
 }
 
 .show-error {

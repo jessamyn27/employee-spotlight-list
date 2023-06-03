@@ -30,8 +30,8 @@ const AskQuestion = () => {
 
     return (
         <div className='questions-container card p-5'>
-            <h6 className="text-center font-bold text-2xl text-orange-500">Submit More Questions!</h6>
-            <h6 className="text-center font-bold text-sm mb-5 italic text-white">If your question gets chosen you win Rajant Merch!</h6>
+            <h6 className="questions-title text-center font-bold text-2xl">Submit More Questions!</h6>
+            <h6 className="text-center font-bold text-sm mb-5 italic ">If your question gets chosen you win  Merch!</h6>
             <div className='flex flex-col'>
                 <input
                     className='input questions-input py-2 px-3 border-2 outline-none'
@@ -48,7 +48,7 @@ const AskQuestion = () => {
                     <button type="button" id="button"
                         ref={buttonRef}
                         disabled={validateButton}
-                        className='button questions-button py-2 px-6 my-0 rounded disabled:bg-neutral-400'
+                        className='button questions-button py-2 px-6 my-0 rounded disabled:bg-neutral-100'
                         tabIndex="0"
                         onClick={handleQuestion}>
                         Submit

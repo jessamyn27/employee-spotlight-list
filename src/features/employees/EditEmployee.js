@@ -61,7 +61,7 @@ const EditEmployee = () => {
     return (
         <div className='form mt-5 mb-20 max-w-xl mx-auto px-10 flex gap-4 flex-col'>
             <div className='flex flex-col'>
-                <label className='mb-1  text-gray-600 text-xs'>Name</label>
+                <label className='mb-1   text-xs'>Name</label>
                 <input
                     className='input py-2 px-3 border-2 outline-none'
                     onChange={(e) => setValues({ ...values, name: e.target.value})}
@@ -81,12 +81,12 @@ const EditEmployee = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <label className='mb-1  text-gray-600 text-xs'>Email</label>
+                <label className='mb-1   text-xs'>Email</label>
                 <input
                     className='input py-2 px-3 border-2 outline-none'
                     onChange={(e) => setValues({ ...values, email: e.target.value})}
                     type='text'
-                    placeholder='Employee@Rajant.com'
+                    placeholder='Employee@.com'
                     value={values.email}
                     tabIndex="0"
                     onMouseLeave={(e) => {if (e.target === e.currentTarget && !validateEmail) {
@@ -101,7 +101,7 @@ const EditEmployee = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <label className='mb-1  text-gray-600 text-xs'>Job Title</label>
+                <label className='mb-1   text-xs'>Job Title</label>
                 <input
                     className='input py-2 px-3 border-2 outline-none'
                     onChange={(e) => setValues({ ...values, title: e.target.value})}
@@ -121,7 +121,7 @@ const EditEmployee = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <label className='mb-1  text-gray-600 text-xs'>What's your favorite meal?</label>
+                <label className='mb-1   text-xs'>What's your favorite meal?</label>
                 <textarea
                     className='input py-2 px-3 border-2 outline-none'
                     onChange={(e) => setValues({ ...values, food: e.target.value})}
@@ -142,7 +142,7 @@ const EditEmployee = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <label className='mb-1  text-gray-600 text-xs'>What's your ideal vacation?</label>
+                <label className='mb-1   text-xs'>What's your ideal vacation?</label>
                 <textarea
                     className='input py-1 px-3 border-2 outline-none'
                     onChange={(e) => setValues({ ...values, vacation: e.target.value})}
@@ -167,13 +167,13 @@ const EditEmployee = () => {
                     <div className='flex items-center'>
                         <button type="button" id="button"
                             disabled={validateButton}
-                            className='button btn-edit bg-gray-600 text-white py-2 px-6 my-0 rounded disabled:opacity-75 disabled:bg-slate-300 disabled:border-slate-400 button valid-success disabled:bg-gray-150 disabled:border-gray-150 disabled:text-slate-500'
+                            className='button btn-edit bg-gray-600  py-2 px-6 my-0 rounded disabled:opacity-75 disabled:bg-slate-300 disabled:border-slate-400 button valid-success disabled:bg-gray-150 disabled:border-gray-150 disabled:text-slate-500'
                             onClick={handleEditEmployee}>Save
                         </button>
                     </div>
                 </Link>
                 <Link to={`/`} className='px-0 my-3 py-1 m-0 w-20 flex col'>
-                    <button className='button button-cancel bg-gray-600 text-white py-2 px-6 my-0 rounded items-center'>Cancel</button>
+                    <button className='button button-cancel bg-gray-600  py-2 px-6 my-0 rounded items-center'>Cancel</button>
                 </Link>
             </div>
         </div>
