@@ -39,6 +39,18 @@
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.homepage-spotlight {
+    bottom: 25px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 50px;
+}
+
+.homepage-spotlight:last-child {
+    transform: rotateY(180deg);
+
+}
+
 .card {
     background-color: var(--white);
     border: 1px solid var(--slate-lighter);
@@ -94,11 +106,10 @@ input:focus {
 }
 
 .question {
-    color: var(--beige);
+    color: var(--lilac);
 }
 
 .questions {
-    /* background-color: var(--slate); */
     margin: 0 auto;
     max-width: 1000px;
 }
@@ -108,7 +119,6 @@ input:focus {
 }
 
 .questions-container.card {
-    /* background-color: var(--slate-lighter); */
     max-width: 1000px;
 }
 
@@ -123,7 +133,6 @@ input:focus {
 }
 
 .input.questions-input {
-    /* border-color: var(--slate-lighter); */
     border: 1px solid var(--slate-lighter);
     background-color: var(--white);
     color: var(--slate);
@@ -136,16 +145,10 @@ input:focus {
 
 .button {
     background-color: var(--white);
-    /* border: 2px solid var(--beige); */
-    /* border-radius: 5px; */
     color: var(--lilac);
     display: flex;
     justify-content: center;
     width: 100px;
-}
-
-.button.main:hover {
-    color: var(--lilac-dark);
 }
 
 .button-edit,
@@ -168,7 +171,8 @@ input:focus {
     border: 2px solid var(--lilac);
     color: var(--white);
     font-weight: 700;
-    width: 230px;
+    margin: 20px auto;
+    width: 210px;
 }
 
 .button.main:hover {

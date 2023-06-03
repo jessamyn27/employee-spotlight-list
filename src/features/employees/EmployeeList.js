@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { deleteEmployee } from './employeeSlice';
 import QuestionList from "../questions/QuestionList";
 import AddQuestion from "../questions/AddQuestion";
+import spotlight from "../../images/logos/spotlight.svg";
 
 const EmployeeList = () => {
     const employees = useSelector(store => store.employees);
@@ -41,7 +42,12 @@ const EmployeeList = () => {
     ))
     return (
         <div className='homepage container p-10'>
-            <h1 className='homepage-title text-center font-bold text-4xl'>Employee Spotlight</h1>
+            <div className="container flex m-auto w-100 justify-center">
+                <img className="homepage-spotlight" src={spotlight} alt=''/>
+                <h1 className='homepage-title text-center font-bold text-4xl'>Employee Spotlight</h1>
+                <img className="homepage-spotlight" src={spotlight} alt=''/>
+            </div>
+            
             <h6 className='home-age-subtitle text-center p-t-1 text-sm italic'>Fill out a card and post answers to this month's questions!</h6>
             <Link to='/add-employee'><Button>Add Employee</Button></Link>
             <div className = 'grid gap-5 md:grid-cols-2'>
