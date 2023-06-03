@@ -14,24 +14,24 @@
 
 ## Quick Links
 
-### click here to view live site --> [ Employee Spotlight](https://-employee-spotlight.com/)
+### click here to view live site --> [ Employee Spotlight](https://employee-spotlight-list.netlify.app/)
 
 ## First Looks
 
-### ![](src/images/screenshots/-homepage.png)
-### ![](src/images/screenshots/-homepage-add.png)
-### ![](src/images/screenshots/-homepage-edit.png)
-### ![](src/images/screenshots/-homepage-delete.png)
-### ![](src/images/screenshots/-add-not-filled.png)
-### ![](src/images/screenshots/-add-validation.png)
-### ![](src/images/screenshots/-add-success.png)
-### ![](src/images/screenshots/-edit-validation.png)
-### ![](src/images/screenshots/-edit-success.png)
-### ![](src/images/screenshots/-homepage-questions-validation.png)
-### ![](src/images/screenshots/-homepage-questions-success.png)
-### ![](src/images/screenshots/-homepage-questions-add.png)
-### ![](src/images/screenshots/-homepage-mobile.png)
-### ![](src/images/screenshots/-edit-mobile.png)
+### ![](src/images/screenshots/homepage.png)
+### ![](src/images/screenshots/homepage-add.png)
+### ![](src/images/screenshots/homepage-edit.png)
+### ![](src/images/screenshots/homepage-delete.png)
+### ![](src/images/screenshots/add-not-filled.png)
+### ![](src/images/screenshots/add-validation.png)
+### ![](src/images/screenshots/add-success.png)
+### ![](src/images/screenshots/edit-validation.png)
+### ![](src/images/screenshots/edit-success.png)
+### ![](src/images/screenshots/homepage-questions-validation.png)
+### ![](src/images/screenshots/homepage-questions-success.png)
+### ![](src/images/screenshots/homepage-questions-add.png)
+### ![](src/images/screenshots/homepage-mobile.png)
+### ![](src/images/screenshots/edit-mobile.png)
 
 
 
